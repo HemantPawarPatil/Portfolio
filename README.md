@@ -13,6 +13,7 @@ About: More detailed information about my background, including education and sk
 Experience: A breakdown of my experience in frontend and backend technologies.
 Projects: A showcase of my key projects with links to GitHub .
 Contact: A simple form to get in touch with me.
+
 Technologies Used
 HTML5
 CSS3 
