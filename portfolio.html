@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome || Hemant Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="assets/portfolio.ico">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./portfolio.css" />
+  <link rel="stylesheet" href="css/mediaqueries.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+
+  
+  
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Hemant Pawar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   <!--  <button id="theme-toggle" class="btn btn-outline-secondary ms-3" onclick="toggleTheme()">Dark Mode</button> -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Profile Section -->
+  <section id="profile" class="text-center py-5">
+    <div class="container">
+      <img src="./assets/profile-pic.png" alt="Ashish Karche profile picture" class="rounded-circle img-fluid mb-4" />
+      <p class="intro-text">Hello, I'm</p>
+      <h1 class="display-4">Hemant Pawar</h1>
+      <p class="subtitle">Full Stack Developer</p>
+      <div class="d-flex justify-content-center mt-3">
+        <a href="./assets/resume.pdf" onclick="downloadCV()" class="btn btn-outline-primary me-2">Download CV</a>
+        <a href="#contact" class="btn btn-outline-secondary">Contact Info</a>
+      </div>
+      <div class="mt-4 social-icons">
+        <a href="https://www.linkedin.com/in/hemant-pawar-625441269/" id="linkdin" class="me-3"><i
+            class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://github.com/HemantPawarPatil" id="github"><i class="fab fa-github fa-2x"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <p class="text-center section-intro">Get To Know More</p>
+      <h1 class="text-center mb-5 section-title">About Me</h1>
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+          <img src="./assets/profile-pic.png" alt="Profile picture" class="rounded-circle img-fluid about-pic" />
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-3">
+                <div class="card-body text-center">
+                  <img src="./assets/experience.png" alt="Experience icon" class="icon mb-2" />
+                  <h3 class="card-title">Experience</h3>
+                  <p>Fresher Full Stack Development</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card mb-3">
+                <div class="card-body text-center">
+                  <img src="./assets/education.png" alt="Education icon" class="icon mb-2" />
+                  <h3 class="card-title">Education</h3>
+                  <p>B.E Bachelors Degree</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="mt-4 about-description">
+            Computer Science graduate skilled in Web Development , graduatecd in 2024. Seeking
+            opportunities to apply knowledge and contribute innovative solutions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <!-- Experience Section -->
+<section id="experience" class="py-5">
+  <div class="container">
+    <p class="text-center section-intro">Explore My</p>
+    <h1 class="text-center mb-5 section-title">Skills</h1>
+    <div class="row">
+      <!-- Frontend Development -->
+      <div class="col-md-6">
+        <div class="experience-card">
+          <div class="experience-header">
+            <h2 class="mb-4">Frontend Development</h2>
+          </div>
+          <div class="experience-body">
+            <div class="experience-item">
+              <i class="fas fa-code experience-icon"></i>
+              <div class="experience-info">
+                <h4>HTML</h4>
+                <p>Experienced</p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <i class="fas fa-code experience-icon"></i>
+              <div class="experience-info">
+                <h4>CSS</h4>
+                <p>Experienced</p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <i class="fas fa-code experience-icon"></i>
+              <div class="experience-info">
+                <h4>Bootstrap</h4>
+                <p>Basic</p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <i class="fas fa-code experience-icon"></i>
+              <div class="experience-info">
+                <h4>JavaScript</h4>
+                <p>Basic</p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <i class="fas fa-code experience-icon"></i>
+              <div class="experience-info">
+                <h4>React</h4>
+                <p>Basic</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Backend Development -->
+      <div class="col-md-6">
+        <div class="experience-card">
+          <div class="experience-header">
+            <h2 class="mb-4">Backend Development</h2>
+          </div>
+          <div class="experience-body">
+            <div class="experience-item">
+              <i class="fas fa-server experience-icon"></i>
+              <div class="experience-info">
+                <h4>Java</h4>
+                <p>Experienced</p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <i class="fas fa-server experience-icon"></i>
+              <div class="experience-info">
+                <h4>Python</h4>
+                <p>Intermediate</p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <i class="fas fa-server experience-icon"></i>
+              <div class="experience-info">
+                <h4>SQL</h4>
+                <p>Basic</p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <i class="fas fa-server experience-icon"></i>
+              <div class="experience-info">
+                <h4>Git</h4>
+                <p>Intermediate</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <p class="text-center section-intro">Get in Touch</p>
+      <h1 class="text-center mb-5 section-title">Contact Me</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="d-flex align-items-center mb-3">
+            <i class="fas fa-envelope fa-2x me-3"></i>
+            <div>
+              <p>Email me at</p>
+              <h2><a href="mailto:ashishkarche9@gmail.com"
+                  class="text-decoration-none text-dark">hemantpawar9172@gmail.com</a></h2>
+            </div>
+          </div>
+          <div class="d-flex align-items-center mb-3">
+            <i class="fas fa-phone-alt fa-2x me-3"></i>
+            <div>
+              <p>Call me at</p>
+              <h2><a href="tel:+919172948195" class="text-decoration-none text-dark">+91 9172948195</a></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <div class="container">
+      <p>&copy; <span id="current-year"></span> Hemant's Portfolio</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/common.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
